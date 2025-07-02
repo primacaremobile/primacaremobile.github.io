@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<!-- Mirrored from duruthemes.com/demo/html/carex/multipage-demo-slider/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 12 Jul 2024 14:16:09 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>PRIMACARE</title>
+    <link rel="shortcut icon" href="img/favicon.png" />
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&amp;family=Syne:wght@400;500;600;700;800&amp;display=swap">
+    <link rel="stylesheet" href="css/plugins.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader-bg"></div>
+    <div id="preloader">
+        <div id="preloader-status">
+            <div class="preloader-position loader"> <span></span> </div>
+        </div>
+    </div>
+    <!-- Progress scroll totop -->
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- Cursor -->
+    <div class="cursor js-cursor"></div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <!-- Logo -->
+    
+            <!-- Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span> </button>
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                     <li class="nav-item"><a class="nav-link" href="BACKEND/user/referral.php">Referral</a></li>
+                    <li class="nav-item"><a class="nav-link" href="BACKEND/user/index.php">Login</a></li>
+                </ul>
+                <div class="navbar-right">
+                    <div class="wrap">
+                        <div class="icon"> <i class="carex-phone-call"></i> </div>
+                        <div class="text">
+                            <p>Need help?</p>
+                            <h5><a href="tel:+2348141816253">855 100 4444</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Header Banner -->
+    <section class="banner-header section-padding bg-img" data-overlay-dark="5" data-background="img/slider/9.jpg">
+        <div class="v-middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 mt-60 text-center">
+                        <h6>Best Packages</h6>
+                        <h1>No Active Plan - Please Subscribe</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- divider line -->
+    <div class="line-vr-section"></div>
+    <!--  Pricing -->
+    <section class="pricing section-padding">
+        <div class="container">
+            <div class="row">
+                <!-- Basic Plan -->
+                <div class="col-lg-4 col-md-6 animate-box" data-animate-effect="fadeInUp">
+                    <div class="item">
+                        <div class="cont">
+                            <h5>Basic Plan</h5>
+                            <h1 class="price-price">15,000 <span>NGN</span></h1>
+                            <div class="price-features">
+                                <p><span class="icon"><i class="ti-check" aria-hidden="true"></i></span> Routine Maintenance (oil change, fluid checks)</p>
+                                <p><span class="icon"><i class="ti-check" aria-hidden="true"></i></span> Minor Repairs (electrical fixes, bulb replacement)</p>
+                                <p><span class="icon"><i class="ti-check" aria-hidden="true"></i></span> Basic Inspections (tire pressure, brake pads)</p>
+                                <p><span class="icon"><i class="ti-check" aria-hidden="true"></i></span> Coverage up to 120,000 NGN annually</p>
+                            </div>
+                            <a href="https://paystack.com/pay/hcqu6y9epz" class="button-2">Subscribe</a>
+                            <div class="numb">Basic</div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Standard Plan -->
+                <div class="col-lg-4 col-md-6 animate-box" data-animate-effect="fadeInUp">
+                    <div class="item">
+                        <div class="cont">
+                            <h5>Standard Plan</h5>
+                            <h1 class="price-price">25,000 <span>NGN</span></h1>
+                            <div class="price-features">
+                                <p><span class="icon"><i class="ti-check" aria-hidden="true"></i></span> Everything in the Basic Plan</p>
+                                <p><span class="icon"><i class="ti-check" aria-hidden="true"></i></span> Mid-level Repairs (brake pads, battery replacement)</p>
+                                <p><span class="icon"><i class="ti-check" aria-hidden="true"></i></span> Diagnostics and moderate engine repairs</p>
+                                <p><span class="icon"><i class="ti-check" aria-hidden="true"></i></span> Coverage up to 200,000 NGN annually</p>
+                            </div>
+                            <a href="https://paystack.com/pay/hcqu6y9epz" class="button-2">Subscribe</a>
+                            <div class="numb">Standard</div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Premium Plan -->
+                <div class="col-lg-4 col-md-6 animate-box" data-animate-effect="fadeInUp">
+                    <div class="item">
+                        <div class="cont">
+                            <h5>Premium Plan</h5>
+                            <h1 class="price-price">40,000 <span>NGN</span></h1>
+                            <div class="price-features">
+                                <p><span class="icon"><i class="ti-check" aria-hidden="true"></i></span> Everything in the Standard Plan</p>
+                                <p><span class="icon"><i class="ti-check" aria-hidden="true"></i></span> Comprehensive Engine and Transmission Repairs</p>
+                                <p><span class="icon"><i class="ti-check" aria-hidden="true"></i></span> Full diagnostics, major repairs, and bodywork</p>
+                                <p><span class="icon"><i class="ti-check" aria-hidden="true"></i></span> Unlimited Service Coverage</p>
+                                <p><span class="icon"><i class="ti-check" aria-hidden="true"></i></span> 24/7 Emergency Support</p>
+                            </div>
+                            <a href="https://paystack.com/pay/hcqu6y9epz" class="button-2">Subscribe</a>
+                            <div class="numb">Premium</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- divider line -->
+    <div class="line-vr-section"></div>
+
+ 
+
+    <!-- Clients -->
+    <section class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/6.png" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/7.png" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/acura.svg" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/audi.svg" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/bentley.svg" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/benz.svg" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/bishi.svg" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/chevrolet.svg" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/citroen.svg" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/ford.svg" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/honda.svg" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/isuzu.svg" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/jaguar.svg" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/jeep.svg" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/mazda.svg" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/mini.svg" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/nissan.svg" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/peugeot.svg" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/rover.svg" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/subaru.svg" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/suzuki.svg" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/toyota.svg" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/wagon.svg" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/lexus.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer clearfix">
+        <div class="container">
+            <!-- first footer -->
+            <div class="first-footer">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="links dark footer-contact-links">
+                            <div class="footer-contact-links-wrapper">
+                                <div class="footer-contact-link-wrapper">
+                                    <div class="image-wrapper footer-contact-link-icon">
+                                        <div class="icon-footer"> <i class="carex-email"></i> </div>
+                                    </div>
+                                    <div class="footer-contact-link-content">
+                                        <h6>Email</h6>
+                                        <p>hr.muselabs@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class="footer-contact-links-divider"></div>
+                                <div class="footer-contact-link-wrapper">
+                                    <div class="image-wrapper footer-contact-link-icon">
+                                        <div class="icon-footer"> <i class="carex-location-map"></i> </div>
+                                    </div>
+                                    <div class="footer-contact-link-content">
+                                        <h6>Abuja Admin</h6>
+                                        <p>No. 6 Citec Estate, Jabi</p>
+                                    </div>
+                                </div>
+                                <div class="footer-contact-links-divider"></div>
+                                <div class="footer-contact-link-wrapper">
+                                    <div class="image-wrapper footer-contact-link-icon">
+                                        <div class="icon-footer"> <i class="carex-location-map"></i> </div>
+                                    </div>
+                                    <div class="footer-contact-link-content">
+                                        <h6>Lagos Admin</h6>
+                                        <p>No. 17 Yellowwood Road, Chevron Drive</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- second footer -->
+    
+            <!-- bottom footer -->
+            <div class="bottom-footer-text">
+                <div class="row copyright">
+                    <div class="col-md-12">
+                        <p class="mb-0">&copy;2024 <a href="#">MuseLabs</a>. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-migrate-3.4.1.min.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.isotope.v3.0.2.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/select2.js"></script>
+    <script src="js/datepicker.js"></script>
+    <script src="js/YouTubePopUp.js"></script>
+    <script src="js/before-after.js"></script>
+    <script src="js/custom.js"></script>
+    </body>
+    
+    <!-- Mirrored from duruthemes.com/demo/html/carex/multipage-demo-slider/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 12 Jul 2024 14:16:30 GMT -->
+    </html>
